@@ -3,7 +3,7 @@ import { createClient } from '@supabase/supabase-js'
 
 // ========== CONFIGURAÇÃO – SUBSTITUI PELAS TUAS CHAVES ==========
 const SUPABASE_URL = 'https://dxhqckbpvkkyc0ehcqhg.supabase.co'
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR4aHFja2JwdmtreWNvZWhjcWhnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAwNjA2MTYsImV4cCI6MjA5NTYzNjYxNn0.kQL5HbCjoEuIZSXOkKHtdXA96acZZQZeIttHe_HzQYQ'
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR4aHFja2JwdmtreWMwZWhjcWhnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAwNjA2MTYsImV4cCI6MjA5NTYzNjYxNn0.kQL5HbCjoEuIZSXOkKHtdXA96acZZQZeIttHe_HzQYQ'
 // =================================================================
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
